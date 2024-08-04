@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 16px 40px;
+  gap: 24px;
+  width: 320px;
+  background: white;
+  box-shadow: 0px 25px 25px rgba(0, 0, 0, 0.0476518);
+  border-radius: 20px;
+  box-sizing: border-box;
+}
+
+.img {
+  display: block;
+  height: 288px;
+  width: 100%;
+  background: url("../../assets//image-qr-code.png") 50% 50% no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.title {
+  margin: 0;
+  margin-bottom: 16px;
+  font-size: 22px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  text-align: center;
+}
+
+.content {
+  padding: 0 16px;
+}
+
+.desc {
+  margin: 0;
+  text-align: center;
+  color: var(--slate-500);
+}
